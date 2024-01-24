@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('fashion-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* .coming-soon-container {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+} */
+
+.coming-soon-text {
+    position: absolute;
+    top: 50%; /* Adjust as necessary */
+    left: 50%; /* Adjust as necessary */
+    transform: translate(-50%, -50%);
+    color: #FFFFFF; /* Or any other color that contrasts well with your background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2em; /* Adjust as necessary */
+    font-family: 'Arial', sans-serif; /* Or any other readable font */
+    text-shadow: 2px 2px 4px #000000; /* Optional text shadow for better legibility */
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
